@@ -17,6 +17,7 @@ file(GLOB_RECURSE SOURCES
 )
 add_executable(${PROJECT_NAME} ${SOURCES})
 target_include_directories(${PROJECT_NAME} PUBLIC "include")
+target_include_directories(${PROJECT_NAME} PUBLIC "solutions")
 target_include_directories(${PROJECT_NAME} PRIVATE "src")
 
 # Include ScratchC
