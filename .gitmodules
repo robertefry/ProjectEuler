@@ -1,0 +1,3 @@
+[submodule "ScratchC"]
+	path = ScratchC
+	url = https://github.com/robertefry/ScratchC
